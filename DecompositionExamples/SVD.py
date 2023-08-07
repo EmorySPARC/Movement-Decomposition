@@ -1,6 +1,6 @@
 import os
-from C3D_Functions import WriteC3D
-from SVD_Functions import svd_c3d
+from MD_Functions import WriteC3D
+from MD_Functions import svd_c3d
 
 file_path = 'ExampleData/SoccerHeader.c3d'  # Replace with your actual file path
 rank = 2  # Replace with your desired rank
