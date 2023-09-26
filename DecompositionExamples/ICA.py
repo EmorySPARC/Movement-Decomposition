@@ -5,13 +5,15 @@ from MD_Functions import ica_c3d
 from MD_Functions import ica_sto
 
 
-file_path = 'ExampleData/OpenSim/StepAndSwing.sto'  # Replace with your actual file path
+file_path = 'ExampleData/OpenSim/FCF_Kinematics_q.sto'  # Replace with your actual file path
 
 # Extract the filename without extension from the file path
 base_name = os.path.basename(file_path)
 filename_without_extension = os.path.splitext(base_name)[0]
 
-NumberOfICs = 2
+VarianceThreshold = 0.90  # Make sure the threshold is in fraction form (i.e., 0.95 for 95%)
+
+NumberOfICs = 5
 
 #process .c3d file
 if file_path.endswith('.c3d'):

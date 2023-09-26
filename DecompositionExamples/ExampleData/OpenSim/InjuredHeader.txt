@@ -1,0 +1,10 @@
+Coordinates
+    version=1
+    nRows=56585
+    nColumns=64
+    inDegrees=yes
+
+    Units are S.I. units (second, meters, Newtons, ...)
+    If the header above contains a line with 'inDegrees', this indicates whether rotational values are in degrees (yes) or radians (no).
+
+    endheader
